@@ -1,11 +1,10 @@
-import CounterApp from './CounterApp';
-
+import Card from './Card.jsx'
 function App() {
-  return (
-    <div>
-      <CounterApp/>
-    </div>
-  );
+return(
+  <>
+  <Card/>
+</>
+);
 }
 
 export default App
